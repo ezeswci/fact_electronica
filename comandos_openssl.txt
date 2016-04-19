@@ -1,0 +1,2 @@
+openssl genrsa -out privada 1024
+openssl req -new -key privada -subj "/C=AR/O=grupototal/CN=grupototal/serialNumber=CUIT 30710637152" -out pedido

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><loginCmsResponse xmlns="http://wsaa.view.sua.dvadac.desein.afip.gov"><loginCmsReturn>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;loginTicketResponse version=&quot;1&quot;&gt;
+    &lt;header&gt;
+        &lt;source&gt;CN=wsaahomo, O=AFIP, C=AR, SERIALNUMBER=CUIT 33693450239&lt;/source&gt;
+        &lt;destination&gt;C=ar, O=abel miranda, SERIALNUMBER=CUIT 20939802593, CN=abel miranda&lt;/destination&gt;
+        &lt;uniqueId&gt;2504729130&lt;/uniqueId&gt;
+        &lt;generationTime&gt;2016-04-19T11:37:04.550-03:00&lt;/generationTime&gt;
+        &lt;expirationTime&gt;2016-04-19T23:37:04.550-03:00&lt;/expirationTime&gt;
+    &lt;/header&gt;
+    &lt;credentials&gt;
+        &lt;token&gt;PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSIzOTUxNDU1NTc3IiBzcmM9IkNOPXdzYWFob21vLCBPPUFGSVAsIEM9QVIsIFNFUklBTE5VTUJFUj1DVUlUIDMzNjkzNDUwMjM5IiBnZW5fdGltZT0iMTQ2MTA3NjU2NCIgZXhwX3RpbWU9IjE0NjExMTk4MjQiIGRzdD0iQ049d3NmZSwgTz1BRklQLCBDPUFSIi8+CiAgICA8b3BlcmF0aW9uIHZhbHVlPSJncmFudGVkIiB0eXBlPSJsb2dpbiI+CiAgICAgICAgPGxvZ2luIHVpZD0iQz1hciwgTz1hYmVsIG1pcmFuZGEsIFNFUklBTE5VTUJFUj1DVUlUIDIwOTM5ODAyNTkzLCBDTj1hYmVsIG1pcmFuZGEiIHNlcnZpY2U9IndzZmUiIHJlZ21ldGhvZD0iMjIiIGVudGl0eT0iMzM2OTM0NTAyMzkiIGF1dGhtZXRob2Q9ImNtcyI+CiAgICAgICAgICAgIDxyZWxhdGlvbnM+CiAgICAgICAgICAgICAgICA8cmVsYXRpb24gcmVsdHlwZT0iNCIga2V5PSIyMDkzOTgwMjU5MyIvPgogICAgICAgICAgICA8L3JlbGF0aW9ucz4KICAgICAgICA8L2xvZ2luPgogICAgPC9vcGVyYXRpb24+Cjwvc3NvPgoK&lt;/token&gt;
+        &lt;sign&gt;JHwwYOyffn/kugtSyAmiL23S2ITYL66cwkD6nCyvrPC+vxy2rM2InLiVG31uhcUYFj/k7OVg7yTCDTCFC6y9Xw58HLYAkhdwDj1sONLqIwiAheAD/ICrYkp5Fu833LPI8Sq56HV1XLyaI84/YRSi340Fuawljmnjv9PLAIwFqmY=&lt;/sign&gt;
+    &lt;/credentials&gt;
+&lt;/loginTicketResponse&gt;
+
+</loginCmsReturn></loginCmsResponse></soapenv:Body></soapenv:Envelope>
