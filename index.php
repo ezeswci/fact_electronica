@@ -1,6 +1,6 @@
 <?php
 set_time_limit(0) ;
-echo('prueba 7');echo('</br>');
+echo('prueba 9');echo('</br>');
 include('wsfe-client.php');
 $nro = 0;
 $PtoVta = 100;
@@ -9,12 +9,12 @@ $FechaComp = date("Ymd");
 $certificado = "certificado.crt";
 $clave = "clave.key";
 $cuit = 20939802593;
-$urlwsaa = URLWSAA;
+$urlwsaa = "URLWSAA";
 
 
 $wsfe = new WsFE();
 $wsfe->CUIT = $cuit;
-$wsfe->setURL(URLWSW);
+$wsfe->setURL($urlwsaa);
 
 echo ('llego antes del if');
 if ($wsfe->Login($certificado, $clave, $urlwsaa)) {
