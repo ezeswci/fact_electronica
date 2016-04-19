@@ -16,12 +16,13 @@ $wsfe = new WsFE();
 $wsfe->CUIT = $cuit;
 $wsfe->setURL(URLWSW);
 
-
+echo ('llego antes del if');
 if ($wsfe->Login($certificado, $clave, $urlwsaa)) {
-
+	echo ('Entro en if 1');
     if (!$wsfe->RecuperaLastCMP($PtoVta, $TipoComp)) {
         echo ('error linea 23 '.$wsfe->ErrorDesc);
     } else {
+		echo ('Entro en else 2 ');
         $wsfe->Reset();
         $wsfe->AgregaFactura(1, 80, 21111111113, $wsfe->RespUltNro + 1, $wsfe->RespUltNro + 1, $FechaComp, 12100.0, 0.0, 10000.0, 0.0, "", "", "", "PES", 1);
         $wsfe->AgregaIVA(5, 10000, 2100);
